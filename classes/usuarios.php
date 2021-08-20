@@ -68,9 +68,6 @@ Class Usuario
 
         
     }
-
 }
-
-
 
 ?>

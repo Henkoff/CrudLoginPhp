@@ -1,0 +1,12 @@
+CREATE DATABASE projeto_usuarios_crud;
+
+USE projeto_usuarios_crud;
+
+CREATE TABLE usuarios(
+
+id_usuario INT AUTO_INCREMENT NOT NULL primary KEY,
+nome  VARCHAR (255) NOT NULL,
+email VARCHAR (40) NOT NULL,
+senha VARCHAR (32) 
+
+);

@@ -11,7 +11,7 @@
 <body>
     <div id="corpo-form">
     <h1>CADASTRO NO SISTEMA</h1>
-    <form method="POST" action="index.php">
+    <form method="POST">
         <input type="text" name="nome" placeholder="nome" maxlength="255">
         <input type="email" name="email" placeholder="email" maxlength="40">
         <input type="password" name="senha" placeholder="senha" maxlength="40">
@@ -25,7 +25,7 @@
 require_once 'classes/usuarios.php';
 $u = new Usuario;
 
-//verificar se a pessoa cliclo no botao cadastrar
+//verificar se a pessoa clicou no botao cadastrar
 if (isset($_POST['nome']))
 {
     $nome =  addslashes($_POST['nome']);
